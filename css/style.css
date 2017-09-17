@@ -1,0 +1,61 @@
+html,body
+{
+	height: 100%;
+	width: 100%;
+	margin: 0;	
+	padding: 0;
+	background: #5BC9E6;
+}
+*
+{
+	box-sizing: border-box;
+}
+#container
+{
+	height: 100%;
+	width: 100%;
+	/*padding: 20px;*/
+}
+#word
+{
+	position: absolute;
+	bottom: 130px;
+	width: 100%;
+	text-align: center;
+	color: #FFF;
+	font-size: 120px;
+
+}
+
+#details
+{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	height: 60px;
+	padding: 15px;
+	font-size: 25px;
+	background: #212121;
+	opacity: 0.5;
+	color: #FFF;
+	font-family: 'Roboto',sans-serif;
+}
+
+.blank
+{
+	margin-right: 20px;
+}
+
+.hangman
+{
+	margin-top: 40px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.logo
+{
+	margin:20px;
+}
